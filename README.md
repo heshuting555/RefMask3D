@@ -26,7 +26,7 @@ RefMask3D
 │   └── trainer.py                <- train loop
 └── utils
 ├── data
-│   └──processed                 <- folder for preprocessed scannet and ScanRefer					
+│   └──processed                 <- folder for preprocessed ScanNet and ScanRefer					
 ├── scripts                       <- train scripts
 ├── README.md
 └── saved                         <- folder that stores models and logs
@@ -52,6 +52,7 @@ pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.
 pip install 'git+https://github.com/facebookresearch/detectron2.git@710e7795d0eeadf9def0e7ef957eea13532e34cf' --no-deps
 pip install -r requirements.txt
 pip install torch-scatter -f https://data.pyg.org/whl/torch-1.13.1+cu117.html
+
 mkdir third_party
 cd third_party
 
