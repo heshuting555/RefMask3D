@@ -3,7 +3,7 @@ train_dataset:
   _target_: datasets.semseg.SemanticSegmentationDataset
   dataset_name: "scannet"
   scannet_refer_dir: "data/processed/ScanRefer_filtered_train.json"
-  data_dir: data/processed/scannet
+  data_dir: data/processed/
   image_augmentations_path: conf/augmentation/albumentations_aug.yaml
   volume_augmentations_path: conf/augmentation/volumentations_aug.yaml
   label_db_filepath: data/processed/label_database.yaml
@@ -37,7 +37,7 @@ validation_dataset:
   _target_: datasets.semseg.SemanticSegmentationDataset
   dataset_name: "scannet"
   scannet_refer_dir: "data/processed/ScanRefer_filtered_val.json"
-  data_dir: data/processed/scannet
+  data_dir: data/processed/
   image_augmentations_path: null
   volume_augmentations_path: null
   label_db_filepath: data/processed/label_database.yaml
@@ -61,7 +61,7 @@ test_dataset:
   _target_: datasets.semseg.SemanticSegmentationDataset
   dataset_name: "scannet"
   scannet_refer_dir: "data/processed/ScanRefer_filtered_val.json"
-  data_dir: data/processed/scannet
+  data_dir: data/processed/
   image_augmentations_path: null
   volume_augmentations_path: null
   label_db_filepath: data/processed/label_database.yaml

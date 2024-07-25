@@ -43,7 +43,7 @@ class SemanticSegmentationDataset(Dataset):
     def __init__(
         self,
         dataset_name="scannet",
-        data_dir: Optional[Union[str, Tuple[str]]] = "data/processed/scannet",
+        data_dir: Optional[Union[str, Tuple[str]]] = "data/processed",
         scannet_refer_dir: Optional[
                 str
             ] = "data/processed/ScanRefer_filtered_val.json",

@@ -20,7 +20,7 @@ class ScannetPreprocessing(BasePreprocessing):
     def __init__(
         self,
         data_dir: str = "./data/raw/scannet/scannet",
-        save_dir: str = "./data/processed/scannet",
+        save_dir: str = "./data/processed",
         modes: tuple = ("train", "validation"),
         n_jobs: int = -1,
         git_repo: str = "./data/raw/scannet/ScanNet",
