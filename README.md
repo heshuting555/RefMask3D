@@ -2,7 +2,7 @@
 
 **[📄[arXiv]](https://arxiv.org/abs/2404.03645v1)**  &emsp; **[📄[PDF]](https://openaccess.thecvf.com/content/CVPR2024/papers/He_Decoupling_Static_and_Hierarchical_Motion_Perception_for_Referring_Video_Segmentation_CVPR_2024_paper.pdf)** 
 
-This repository contains code for ACM MM24 paper:
+This repository contains code for ACM MM 2024 paper:
 
 > [RefMask3D: Language-Guided Transformer for 3D Referring Segmentation](https://arxiv.org/abs/2404.03645v1)  
 > Shuting He,  Henghui Ding  
@@ -104,12 +104,13 @@ TBD
 ☁️ [Google Drive]()
 
 ## BibTeX :pray:
+Please consider to cite RefMask3D if it helps your research.
 
-```
+```bibtex
 @inproceedings{RefMask3D,
   title={{RefMask3D}: Language-Guided Transformer for 3D Referring Segmentation},
   author={He, Shuting and Ding, Henghui},
-  booktitle=ACMMM,
+  booktitle={ACM MM},
   year={2024}
 }
 ```
