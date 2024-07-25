@@ -26,7 +26,7 @@ RefMask3D
 │   └── trainer.py                <- train loop
 └── utils
 ├── data
-│   └──processed                 <- folder for preprocessed ScanNet and ScanRefer					
+│   └──processed                  <- folder for preprocessed ScanNet and ScanRefer					
 ├── scripts                       <- train scripts
 ├── README.md
 └── saved                         <- folder that stores models and logs
