@@ -4,7 +4,7 @@
 
 This repository contains code for ACM MM 2024 paper:
 
-> [RefMask3D: Language-Guided Transformer for 3D Referring Segmentation](https://arxiv.org/abs/2404.03645v1)  
+> [RefMask3D: Language-Guided Transformer for 3D Referring Segmentation](https://arxiv.org/abs/2407.18244)  
 > Shuting He,  Henghui Ding  
 > ACM MM 2024
 
