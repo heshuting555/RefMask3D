@@ -1,6 +1,6 @@
 # RefMask3D: Language-Guided Transformer for 3D Referring Segmentation
 
-**[📄[arXiv]](https://arxiv.org/abs/2404.03645v1)**  &emsp; **[📄[PDF]](https://openaccess.thecvf.com/content/CVPR2024/papers/He_Decoupling_Static_and_Hierarchical_Motion_Perception_for_Referring_Video_Segmentation_CVPR_2024_paper.pdf)** 
+**[📄[arXiv]](https://arxiv.org/abs/2407.18244)**  &emsp; **[📄[PDF]](https://arxiv.org/pdf/2407.18244)** 
 
 This repository contains code for ACM MM 2024 paper:
 
