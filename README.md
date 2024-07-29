@@ -53,7 +53,6 @@ pip install 'git+https://github.com/facebookresearch/detectron2.git@710e7795d0ee
 pip install -r requirements.txt
 pip install torch-scatter -f https://data.pyg.org/whl/torch-1.13.1+cu117.html
 
-mkdir third_party
 cd third_party
 
 git clone --recursive "https://github.com/NVIDIA/MinkowskiEngine"
